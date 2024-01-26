@@ -122,9 +122,8 @@ namespace Logic
 We can then build our project, compiling it and turning into a referencable unit using the command:
 
 ```dotnetcli
-dotnet build
+dotnet build        // This will compile your application without running it
 ```
-
 This action created a folder structure `bin/Debug/net5.0` with a `Logic.dll` file in it along with some other artifacts.  This DLL file is the unit that can be reused in other projects.  On Windows machines, you will find many hundreds if not thousands of DLL files that contain these binary formatted references that applications can use.
 
 ### Namespaces
